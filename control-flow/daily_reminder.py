@@ -1,6 +1,8 @@
-task = input("Provide your task: ")
-priority = input("Priority level (high, medium, low)").lower()
-time_bound = input("Is it time bound? (yes/no)").lower()
+# Daily Reminder mini project
+
+task = input("Enter your task: ")
+priority = input("Priority (high, medium, low): ").lower()
+time_bound = input("Is it time-bound? (yes/no):").lower()
 
 match priority:
     case "high":  # High Priority level
