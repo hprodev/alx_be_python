@@ -4,8 +4,8 @@ from datetime import timedelta
 
 
 def display_current_datetime():
-    current_date = datetime.now().replace(microsecond=0)
-    print("Current date and time: ", current_date)
+    current_date = datetime.now()
+    print("Current date and time: ", current_date.strftime("%Y-%m-%d %H:%M:%S"))
     return current_date
 
 
